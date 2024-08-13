@@ -1,0 +1,11 @@
+{
+    "parameters": [
+      {
+        "name": "webhook_url",
+        "type": "text",
+        "label": "Webhook URL",
+        "hint": "Enter the URL of the webhook endpoint"
+      }
+    ]
+  }
+  
