@@ -93,7 +93,7 @@ async function handleButtonClick() {
 
 async function sendWebhook(email, message) {
   try {
-    const webhookUrl = 'https://hook.eu1.make.com/pmh123khnrcpildtj5u2ijog4qoccfig'; // Update this with your actual webhook URL
+    const webhookUrl = 'https://hook.eu1.make.com/pmh123khnrcpildtj5u2ijog4qoccf';
     const url = `${webhookUrl}?email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`;
 
     const response = await fetch(url, {
